@@ -1,0 +1,55 @@
+.container {
+    width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .leftemployess,
+  .rightemployess {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 45%; 
+    /* height: 100vh; */
+  }
+  
+  .leftemployess ul,
+  .rightemployess ul {
+    padding: 0;
+  }
+  
+  .leftemployess ul li,
+  .rightemployess ul li {
+    list-style: none;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 5px;
+  }
+.age{
+    width: 30px; 
+  text-align: center;
+}
+  
+  .leftemployess button,
+  .rightemployess button {
+    padding: 5px 10px;
+  }
+
+  .leftemployess button{
+    background-color: rgb(53, 53, 167);
+    color: white;
+  }
+  
+  .rightemployess button {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .rightemployess button:hover {
+    background-color: #cc0000;
+  }
+  
+  .averageage {
+    margin-top: 10px;
+  }
+  
